@@ -1023,6 +1023,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1053,16 +1057,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-l-2xl {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
-.rounded-r-2xl {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
 }
 
 .border {
