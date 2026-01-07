@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="./public/css/tailwind/tailwind.min.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -134,7 +133,20 @@
               <div class="pt-20 pb-12 mb-auto">
                 <ul class="flex-col">
                   <li class="mb-6">
-                    <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="#">Shembull</a>
+                    <a
+                      class="inline-block text-teal-900 hover:text-teal-700 font-medium"
+                      href="#zgjidhjet-tona"
+                      x-on:click="mobileNavOpen = false"
+                      >Zgjidhjet tona</a
+                    >
+                  </li>
+                  <li class="mb-6">
+                    <a
+                      class="inline-block text-teal-900 hover:text-teal-700 font-medium"
+                      href="#kontakti"
+                      x-on:click="mobileNavOpen = false"
+                      >Kontakti</a
+                    >
                   </li>
                 </ul>
               </div>
